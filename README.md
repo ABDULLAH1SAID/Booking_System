@@ -28,37 +28,54 @@ Unlike a single-purpose booking system (e.g., flights only), this system is desi
 ### A. Core / Shared Features
 > Shared across all service modules.
  
-1. **User Account Management** — registration, login, profile, saved documents/payment methods
-2. **Unified Search** — single search entry point across all service types
-3. **Multi-Service Cart** — combine multiple service types in one cart
-4. **Unified Payment & Checkout** — single payment flow covering all cart items
-5. **Itinerary Management** — groups all bookings for a trip into one itinerary/timeline
-6. **Notifications System** — booking confirmations, reminders, and change alerts
-7. **Booking History & Management** — view/modify/cancel past and upcoming bookings
-8. **Reviews & Ratings** — per-service feedback
-9. **Customer Support** — chat/tickets, FAQs
-10. **Promotions & Loyalty Program** — discount codes, points, rewards
+- **User Account Management** — registration, login, profile, saved documents/payment methods
+- **Unified Search** — single search entry point across all service types
+- **Multi-Service Cart** — combine multiple service types in one cart
+- **Unified Payment & Checkout** — single payment flow covering all cart items
+- **Itinerary Management** — groups all bookings for a trip into one itinerary/timeline
+- **Notifications System** — booking confirmations, reminders, and change alerts
+- **Booking History & Management** — view/modify/cancel past and upcoming bookings
+- **Reviews & Ratings** — per-service feedback
+- **Customer Support** — chat/tickets, FAQs
+- **Promotions & Loyalty Program** — discount codes, points, rewards
+  
 ### B. Flight Booking
 11. **Flight Search & Booking**
 12. **Seat Selection**
 13. **Online Check-in**
+
+--
+
 ### C. Hotel Booking
 14. **Hotel Search & Booking**
 15. **Room Selection & Details**
+
+--
+
 ### D. Car Rental
 16. **Car Search & Booking**
 17. **Insurance & Add-ons Selection**
+
+--
+
 ### E. Local Trips & Activities
 18. **Activity/Tour Search & Booking**
+
+--
+
 ### F. Package / Bundle Booking
 19. **Pre-built Packages** (Flight + Hotel + Trip bundles)
 20. **Custom Package Builder**
+
+--
+
 ### G. Admin & Management
 21. **Admin Dashboard**
 22. **Supplier / Inventory Management**
 23. **Reports & Analytics**
 24. **User & Access Management** (admin side)
----
+    
+--
 
 
 ## 📌 System functions
