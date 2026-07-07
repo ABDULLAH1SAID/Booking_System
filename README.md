@@ -357,8 +357,6 @@ These features are shared across all booking modules (Flights, Hotels, Cars, Act
 - Booking Reports
 - Booking Trends
 - Export Reports
-  - Excel
-  - PDF
 
 ---
 
