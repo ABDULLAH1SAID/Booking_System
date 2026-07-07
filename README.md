@@ -40,40 +40,40 @@ Unlike a single-purpose booking system (e.g., flights only), this system is desi
 - **Promotions & Loyalty Program** — discount codes, points, rewards
   
 ## B. Flight Booking
-11. **Flight Search & Booking**
-12. **Seat Selection**
-13. **Online Check-in**
+- **Flight Search & Booking**
+- **Seat Selection**
+- **Online Check-in**
 
 
 ## C. Hotel Booking
-14. **Hotel Search & Booking**
-15. **Room Selection & Details**
+- **Hotel Search & Booking**
+- **Room Selection & Details**
 
 
-### D. Car Rental
-16. **Car Search & Booking**
-17. **Insurance & Add-ons Selection**
+## D. Car Rental
+- **Car Search & Booking**
+- **Insurance & Add-ons Selection**
 
---
 
-### E. Local Trips & Activities
-18. **Activity/Tour Search & Booking**
 
---
+## E. Local Trips & Activities
+- **Activity/Tour Search & Booking**
 
-### F. Package / Bundle Booking
-19. **Pre-built Packages** (Flight + Hotel + Trip bundles)
-20. **Custom Package Builder**
 
---
 
-### G. Admin & Management
-21. **Admin Dashboard**
-22. **Supplier / Inventory Management**
-23. **Reports & Analytics**
-24. **User & Access Management** (admin side)
+## F. Package / Bundle Booking
+- **Pre-built Packages** (Flight + Hotel + Trip bundles)
+- **Custom Package Builder**
+
+
+
+## G. Admin & Management
+- **Admin Dashboard**
+- **Supplier / Inventory Management**
+- **Reports & Analytics**
+- **User & Access Management** (admin side)
     
---
+
 
 
 ## 📌 System functions
