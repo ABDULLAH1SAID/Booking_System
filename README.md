@@ -39,18 +39,16 @@ Unlike a single-purpose booking system (e.g., flights only), this system is desi
 - **Customer Support** — chat/tickets, FAQs
 - **Promotions & Loyalty Program** — discount codes, points, rewards
   
-### B. Flight Booking
+## B. Flight Booking
 11. **Flight Search & Booking**
 12. **Seat Selection**
 13. **Online Check-in**
 
---
 
-### C. Hotel Booking
+## C. Hotel Booking
 14. **Hotel Search & Booking**
 15. **Room Selection & Details**
 
---
 
 ### D. Car Rental
 16. **Car Search & Booking**
