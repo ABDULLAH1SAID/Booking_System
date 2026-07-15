@@ -369,6 +369,8 @@ These features are shared across all booking modules (Flights, Hotels, Cars, Act
 - Assign Roles
 - Manage Permissions
 
+---
+
 ## 📐 Analysis & Design
 
 This section provides a detailed analysis of the system use cases. Each use case is documented using:
