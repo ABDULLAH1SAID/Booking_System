@@ -384,3 +384,7 @@ This section provides a detailed analysis of the system use cases. Each use case
 - Sequence Diagram
 - Pseudocode
 
+## Use Case 1: Book Hotel
+
+...
+
