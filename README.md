@@ -386,5 +386,12 @@ This section provides a detailed analysis of the system use cases. Each use case
 
 ## Use Case 1: Book Hotel
 
+This Use Case describes the entire process a user goes through to book a hotel room, from searching for the hotel,
+through checking in, paying the amount, and ending with confirming the booking and receiving the notification.
+
+### Flowchart
+
+
+
 ...
 
