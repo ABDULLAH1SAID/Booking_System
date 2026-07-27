@@ -435,6 +435,7 @@ END PROCEDURE
 
 ## Use Case 2: Retrieve Booking History
 
+This Use Case describes how a user views their previous hotel bookings and retrieves their booking history.
 
 ### Flowchart
 
