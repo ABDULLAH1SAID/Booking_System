@@ -431,4 +431,67 @@ PROCEDURE book_hotel()
 END PROCEDURE
 ```
 
+---
+
+## Use Case 2: Retrieve Booking History
+
+
+### Flowchart
+
+![Hotel Booking Flowchart](https://github.com/ABDULLAH1SAID/Booking_System/blob/main/booking%20system/booking%20history%20retrieve%20flowchart.jpg)
+
+### sequence dogram 
+
+![Hotel Booking Flowchart](https://github.com/ABDULLAH1SAID/Booking_System/blob/main/retriev%20Booking%20history%20Process%20Flow.png)
+
+### Pseudocode
+
+```text
+PROCEDURE ViewMyBookings()
+
+    DISPLAY "Navigating to My Bookings section..."
+
+    IF NOT IsUserLoggedIn() THEN
+
+        REDIRECT TO LoginPage
+
+        REPEAT
+            DISPLAY "Please enter your credentials"
+            INPUT email, password
+
+            credentials_are_correct = AuthenticateUser(email, password)
+
+            IF NOT credentials_are_correct THEN
+                DISPLAY "Invalid email or password. Please try again."
+            END IF
+
+        UNTIL credentials_are_correct = True
+
+        SetUserSession(email)
+
+    END IF
+
+    booking_list = RequestBookingHistory(GetCurrentUserId())
+
+    IF booking_list IS EMPTY OR booking_list.Count = 0 THEN
+
+        DISPLAY "No bookings found message to the user"
+
+    ELSE
+
+        DISPLAY "Displaying list of all bookings:"
+        FOR EACH booking IN booking_list
+            DISPLAY booking.details
+        END FOR
+
+    END IF
+
+    RETURN
+
+END PROCEDURE
+ 
+```
+---
+
+
 
