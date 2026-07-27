@@ -494,5 +494,11 @@ END PROCEDURE
 ```
 ---
 
+### 📌 Booking System – Database Design (ERD)
+
+This diagram represents the complete database design for a Booking System, including:
+
+
+
 
 
