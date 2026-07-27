@@ -393,5 +393,42 @@ through checking in, paying the amount, and ending with confirming the booking a
 
 ![Hotel Booking Flowchart](https://github.com/ABDULLAH1SAID/Booking_System/blob/main/booking%20system/Hotel%20Booking%20Process%20Flow-2026-07-25-220003.png)
 
-...
+### sequence dogram 
+
+![Hotel Booking Flowchart](https://github.com/ABDULLAH1SAID/Booking_System/blob/main/booking%20system/Hotel%20Booking%20sequence.png)
+
+### Pseudocode
+
+```text
+PROCEDURE book_hotel()
+
+    // User selects hotel and preferred room type
+    User selects hotel and preferred room type
+    User clicks Book Now button
+
+    // Check login status
+    IF user is NOT logged in THEN
+        Redirect to Login or Sign-up page
+        User enters email and password
+
+        IF credentials are correct THEN
+            Login successful, return to booking
+        END IF
+    END IF
+
+    // Fill booking information
+    Fill guest details: Name, Email, Phone
+    Review booking details and final price
+
+    // Final validation
+    IF all details are correct THEN
+        Booking completed successfully
+    ELSE
+        Show payment failed message
+        Cancel booking and end process
+    END IF
+
+END PROCEDURE
+```
+
 
