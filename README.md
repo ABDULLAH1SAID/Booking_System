@@ -442,7 +442,7 @@ END PROCEDURE
 
 ### sequence dogram 
 
-![Hotel Booking Flowchart](https://github.com/ABDULLAH1SAID/Booking_System/blob/main/retriev%20Booking%20history%20Process%20Flow.png)
+![Hotel Booking Flowchart](https://github.com/ABDULLAH1SAID/Booking_System/blob/main/booking%20system/retriev%20Booking%20history%20Process%20Flow.png)
 
 ### Pseudocode
 
