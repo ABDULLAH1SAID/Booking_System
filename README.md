@@ -505,5 +505,5 @@ This diagram represents the complete database design for a Booking System, inclu
 
 Each business domain is designed independently to reduce coupling and improve change isolation, while the `Customer` entity is shared across the system.
 
-![Booking System ERD](./path-to-your-image.png)
+![Booking System ERD](https://github.com/ABDULLAH1SAID/Booking_System/blob/main/booking%20system/erd_booking_system.png)
 
