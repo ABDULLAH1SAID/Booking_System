@@ -498,7 +498,12 @@ END PROCEDURE
 
 This diagram represents the complete database design for a Booking System, including:
 
+- **Hotel Booking Domain** – managing hotels, rooms, bookings, and guests.
+- **Flight Booking Domain** – managing airlines, flights, airports, seats, bookings, and passengers.
+- **Car Booking Domain** – managing car companies, vehicles, bookings, and drivers.
+- **Customer** – a shared entity that can make bookings across all three domains.
 
+Each business domain is designed independently to reduce coupling and improve change isolation, while the `Customer` entity is shared across the system.
 
-
+![Booking System ERD](./path-to-your-image.png)
 
