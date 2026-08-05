@@ -376,7 +376,7 @@ These features are shared across all booking modules (Flights, Hotels, Cars, Act
 ## Performance
 - Search results should be returned within **2 seconds** under normal load.
 - Payment processing should complete within **5 seconds**.
-- The system should support thousands of concurrent users.
+- The system should efficiently handle a large number of concurrent users.
 
 ## Availability
 - The system should maintain **99.9% uptime**.
