@@ -371,6 +371,54 @@ These features are shared across all booking modules (Flights, Hotels, Cars, Act
 
 ---
 
+# Non-Functional Requirements
+
+## Performance
+- Search results should be returned within **2 seconds** under normal load.
+- Payment processing should complete within **5 seconds**.
+- The system should support thousands of concurrent users.
+
+## Availability
+- The system should maintain **99.9% uptime**.
+- Scheduled maintenance should be communicated to users in advance.
+
+## Security
+- All communication must use HTTPS.
+- Passwords must be securely hashed.
+- JWT-based authentication and authorization.
+- Role-Based Access Control (RBAC) for administrative features.
+- Sensitive payment information must not be stored directly.
+
+## Scalability
+- The system should support horizontal scaling.
+- Services should be independently scalable.
+
+## Reliability
+- The system must prevent duplicate bookings.
+- Checkout operations must be transactional to ensure data consistency.
+- Recoverable payment failures should be retried automatically.
+
+## Maintainability
+- Follow a modular architecture.
+- Provide comprehensive logging.
+- Maintain API documentation.
+- Write clean, maintainable code.
+
+## Usability
+- Responsive design for desktop and mobile devices.
+- Intuitive user interface.
+- Support multiple languages.
+
+## Compatibility
+- Support the latest versions of Chrome, Firefox, Edge, and Safari.
+- Compatible with Android and iOS mobile browsers.
+
+## Backup & Recovery
+- Perform automated daily database backups.
+- Support disaster recovery with minimal downtime.
+
+---
+
 ## 📐 Analysis & Design
 
 This section provides a detailed analysis of the system use cases. Each use case is documented using:
