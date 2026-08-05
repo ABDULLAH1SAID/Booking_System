@@ -409,10 +409,6 @@ These features are shared across all booking modules (Flights, Hotels, Cars, Act
 - Intuitive user interface.
 - Support multiple languages.
 
-## Compatibility
-- Support the latest versions of Chrome, Firefox, Edge, and Safari.
-- Compatible with Android and iOS mobile browsers.
-
 ## Backup & Recovery
 - Perform automated daily database backups.
 - Support disaster recovery with minimal downtime.
