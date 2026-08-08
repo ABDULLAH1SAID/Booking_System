@@ -148,8 +148,8 @@ Total/month    ≈ 26.4 TB
 | Average RPS | ~463 |
 | Peak RPS | ~1,850 (4× factor) |
 | Read/Write Ratio | ~85:15 (~6–7:1) |
-| Storage/year | ~365 GB (growth, with overhead) |
-| Storage/5 years | ~2.1 TB (cumulative, with overhead) |
+| Storage/year | ~235 GB (growth, with overhead) |
+| Storage/5 years | ~1.18 TB (cumulative, with overhead) |
 | Bandwidth/month | ~26.4 TB |
 
 ---
