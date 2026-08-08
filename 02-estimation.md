@@ -75,31 +75,32 @@ Bookings/year  = 100,000 × 365 ≈ 36,500,000
 
 | Entity | Avg Record Size | Records/day | Reasoning | Storage/day | Storage/year |
 |---|---:|---:|---|---:|---:|
-| Users (new signups) | 2 KB | 50,000 | 100M users over ~5 yrs growth ≈ 55K/day, rounded | 100 MB | ~36.5 GB |
-| Bookings | 1 KB | 100,000 | Core booking metadata (IDs, dates, status, type) | 100 MB | ~36.5 GB |
-| Booking Items | 1.5 KB | 200,000 (~2/booking) | Multi-segment flights, multi-night hotels | 300 MB | ~109.5 GB |
+| Users (new signups) | 2 KB | 50,000 | Assumed average user growth for a large-scale platform | 100 MB | ~36.5 GB |
+| Flight Bookings | 1.5 KB | 40,000 | ~40% of all bookings; flight-specific booking data | 60 MB | ~21.9 GB |
+| Hotel Bookings | 1.5 KB | 35,000 | ~35% of all bookings; hotel-specific booking data | 52.5 MB | ~19.2 GB |
+| Car Bookings | 1.5 KB | 15,000 | ~15% of all bookings; car rental booking data | 22.5 MB | ~8.2 GB |
+| Activity Bookings | 1.5 KB | 10,000 | ~10% of all bookings; activity-specific booking data | 15 MB | ~5.5 GB |
 | Payments | 1 KB | 120,000 | Payment method, amount, gateway reference | 120 MB | ~43.8 GB |
-| Transactions/Ledger | 0.5 KB | 180,000 | Ledger entries incl. refunds/adjustments | 90 MB | ~32.9 GB |
-| **Total (raw)** | | | | **~710 MB/day** | **~260 GB/year** |
+| Transactions/Ledger | 0.5 KB | 180,000 | Ledger entries including refunds and adjustments | 90 MB | ~32.9 GB |
+| **Total (raw)** | | | | **~460 MB/day** | **~168 GB/year** |
 
-**Index & metadata overhead:** add **~40%** (indexes, foreign keys, timestamps, audit columns)
-```
-260 GB × 1.4 ≈ 364 GB/year (effective growth)
-```
+**Index & metadata overhead:** add **~40%** for indexes, foreign keys, timestamps, audit columns, and other database metadata.
 
-**Baseline snapshot (existing user base at t=0):**
-```
-100M users × 2 KB = 200 GB raw → × 1.4 overhead ≈ 280 GB
+```text
+168 GB × 1.4 ≈ 235 GB/year (effective growth)
 ```
 
 **Storage after 1 year:**
 ```
-280 GB (baseline) + 364 GB (year 1 growth) ≈ 644 GB (~0.65 TB)
+ 235 GB (year 1 growth)
+
 ```
 
 **Storage after 5 years:**
 ```
-280 GB (baseline) + 5 × 364 GB ≈ 2,100 GB (~2.1 TB)
+235 × 5
+= 1,175 GB
+≈ 1.18 TB
 ```
 
 ---
